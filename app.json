@@ -1,34 +1,34 @@
 {
-  "name": "OREO-BOT",
+  "name": "THANOS-BOT",
   "description": "WhatsApp Bot Base using Baileys. Written in javascript",
   "keywords": [
     "whatsapp bot",
-    "ShizoBot",
+    "thanosBot",
     "WaBot",
-    "oreo-bot",
+    "thanos-bot",
     "Termux-WaBot",
     "WaBot-Base"
   ],
 "env": {
     "DATABASE_URL": {
       "description": "your mongodb database url",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "mongodb://atlas-sql-6661dad75a51a628fef4d216-p2ief.a.query.mongodb.net/myVirtualDatabase?ssl=true&authSource=admin"
       },
     "SESSION_ID": {
       "description": "your session id",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "oreobyshizonZu0JVZA"
     },
     "PRIVATE": {
       "description": "Set it true if you want to make the bot private, leave Blank for public",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "public"
     },
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "."
     },
      "BOT_NAME": {
       "description": "Name of Your Bot",
