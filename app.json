@@ -22,13 +22,13 @@
     },
     "PRIVATE": {
       "description": "Set it true if you want to make the bot private, leave Blank for public",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "true"
     },
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": ","
     },
      "BOT_NAME": {
       "description": "Name of Your Bot",
@@ -37,13 +37,13 @@
     },
 "OWNER_NAME": {
       "description": "owner name of the bot or Your Name",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "Sudhanshu Srivastava"
     },
 "OWNER_NUMBER": {
       "description": "Your number or bot owner number",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "918766381024"
     },
 "MAKER": {
       "description": "Maker Text that replace MADE WITH ❤️ BY OREO-BOT",
